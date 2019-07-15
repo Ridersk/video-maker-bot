@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Ridersk/video-maker-bot/issues"
   },
-  "homepage": "https://github.com/Ridersk/video-maker-bot#readme"
+  "homepage": "https://github.com/Ridersk/video-maker-bot#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.9"
+  }
 }
