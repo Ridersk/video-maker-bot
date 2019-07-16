@@ -63,9 +63,5 @@ typings/
 # swap files
 *.swp
 
-# credentials
-credentials/*.json
-
-
-
+# content results
 content.json
