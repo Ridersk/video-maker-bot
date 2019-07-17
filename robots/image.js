@@ -22,14 +22,16 @@ async function robot() {
         const response = await customSearch.cse.list({
             auth: googleSearchCredentials.apikey,
             cx: googleSearchCredentials.searchEngineId,
-            q: "test",
+            q: query,
             searchType: 'image',
-            num: 2,
+            num: 2
         })
+
 
         const imagesUrl = response.data.items.map((item) =>{
             return item.link
         })
+
         return imagesUrl
     }
 }
