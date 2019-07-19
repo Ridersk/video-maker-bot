@@ -1,0 +1,12 @@
+Adobe After Effects v16.1.2 Windows 64 render log for project “template.aep”
+
+Rendering started on 7/19/2019 at 6:44:00 PM
+
+  7/19/2019 6:44:00 PM: Starting composition “main”.
+
+  Render Settings: Best Settings  Quality: Best  Resolution: Full  Size: 1920 x 1080  Proxy Use: Use No Proxies  Effects: Current Settings  Disk Cache: Read Only  Color Depth: Current Settings  Frame Blending: On for Checked Layers  Field Render: Off  Pulldown: Off  Motion Blur: On for Checked Layers  Solos: Current Settings  Time Span: Work Area  Start: 0:00:00:00  End: 0:01:14:29  Duration: 0:01:15:00  Frame Rate: 30.00 (comp)  Guide Layers: All Off  Skip Existing Files: Off    Output Module: Lossless  Output To: D:\Documentos\video-maker-bot\content\output.mov  Format: QuickTime  Output Info: Apple ProRes 422 LT  Include: Project Link  Output Audio: 48.000 kHz / 16 bit / Stereo (if comp has audio)  Channels: RGB  Depth: Millions of Colors  Color: Premultiplied  Resize: -  Crop: -  Final Size: 1920 x 1080  Profile: -  Post-Render Action: None  After Effects error: Rendering error while writing to file “D:\Documentos\video-maker-bot\content\output.mov”. Unable to delete existing file. (-1610153460)  7/19/2019 6:44:03 PM: Finished composition “main”.
+
+
+  Total Time Elapsed: 1 Seconds
+Log closed on 7/19/2019 at 6:44:03 PM
+

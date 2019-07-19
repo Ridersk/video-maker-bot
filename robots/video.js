@@ -6,10 +6,10 @@ const rootPath = path.resolve(__dirname, '..')
 
 async function robot() {
     const content = state.load();
-    // await convertAllImages(content);
-    // await createAllSentenceImages(content)
-    // await createYouTubeThumbnail();
-    // await createAfterEffectsScript(content)
+    await convertAllImages(content);
+    await createAllSentenceImages(content)
+    await createYouTubeThumbnail();
+    await createAfterEffectsScript(content)
     await renderVideoWithAfterEffects()
     state.save(content);
 
@@ -127,7 +127,7 @@ async function robot() {
 
     async function renderVideoWithAfterEffects() {
         return new Promise((resolve, reject) => {
-            const aerenderFilePath = 'C:\\\\Program Files\\Adobe\\Adobe After Effects CC 2019\\Support Files\\aerender.exe'
+            const aerenderFilePath = 'C:Program Files/Adobe/Adobe After Effects CC 2019/Support Files/aerender.exe'
             const templateFilePath = `${rootPath}/templates/1/template.aep`
             const destinationfilePath = `${rootPath}/content/output.mov`
 
@@ -135,12 +135,12 @@ async function robot() {
 
             const aerender = spawn(aerenderFilePath, [
                 '-comp', 'main',
-                'project', templateFilePath,
+                '-project', templateFilePath,
                 '-output', destinationfilePath
             ])
 
             aerender.stdout.on('data', (data) => {
-                process.stdout._write(data)
+                process.stdout.write(data)
             })
 
             aerender.on('close', () => {
