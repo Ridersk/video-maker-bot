@@ -73,3 +73,6 @@ credentials/*.json
 content/*.png
 content/*.jpg
 content/*.mov
+
+# template logs
+template.aep Logs/
