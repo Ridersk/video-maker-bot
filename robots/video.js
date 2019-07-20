@@ -129,7 +129,7 @@ async function robot() {
         return new Promise((resolve, reject) => {
             const aerenderFilePath = 'C:Program Files/Adobe/Adobe After Effects CC 2019/Support Files/aerender.exe'
             const templateFilePath = `${rootPath}/templates/1/template.aep`
-            const destinationfilePath = `${rootPath}/content/output.mov`
+            const destinationfilePath = `${rootPath}/content/output.avi`
 
             console.log(`> Starting After Effects`)
 
